@@ -1,0 +1,28 @@
+{
+  "name": "gtm-module",
+  "version": "0.0.0",
+  "description": "This is the description of the plugin.",
+  "strapi": {
+    "name": "gtm-module",
+    "description": "Description of Gtm Module plugin",
+    "kind": "plugin",
+    "displayName": "Gtm Module"
+  },
+  "dependencies": {
+    "react-ga4": "^2.1.0",
+    "react-gtm-module": "^2.0.11"
+  },
+  "author": {
+    "name": "Onix Systems"
+  },
+  "maintainers": [
+    {
+      "name": "Onix Systems"
+    }
+  ],
+  "engines": {
+    "node": ">=14.19.1 <=18.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
