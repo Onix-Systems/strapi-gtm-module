@@ -24,7 +24,7 @@ module.exports = ({ env }) => ({
 }
 ```
 
-- **gtmId** - An API SECRET generated in the Google Analytics UI. To create a new secret, navigate to:
+- **gtmId** - Google Tag Manager Id. Found in:
 > Workspace  > Header right > ex: GTM-...
 - **measurementId** - The measurement ID associated with a stream. Found in the Google Analytics UI under:
 > Admin > Data Streams > choose your stream > Measurement ID ex: G-...
