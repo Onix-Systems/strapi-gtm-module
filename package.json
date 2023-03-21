@@ -1,10 +1,10 @@
 {
   "name": "gtm-module",
-  "version": "0.0.0",
-  "description": "This is the description of the plugin.",
+  "version": "1.0.0",
+  "description": "The plugin that allows easily connect to Google Analytics and Google Tag Manager",
   "strapi": {
     "name": "gtm-module",
-    "description": "Description of Gtm Module plugin",
+    "description": "The plugin that allows easily connect to Google Analytics and Google Tag Manager",
     "kind": "plugin",
     "displayName": "Gtm Module"
   },
@@ -13,11 +13,12 @@
     "react-gtm-module": "^2.0.11"
   },
   "author": {
-    "name": "Onix Systems"
+    "name": "Tymur Abel"
   },
   "maintainers": [
     {
-      "name": "Onix Systems"
+      "name": "Onix Systems",
+      "url": "https://onix-systems.com"
     }
   ],
   "engines": {
