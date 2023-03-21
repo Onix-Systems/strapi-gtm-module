@@ -1,6 +1,6 @@
 {
-  "name": "gtm-module",
-  "version": "1.0.0",
+  "name": "strapi-gtm-module",
+  "version": "0.0.1",
   "description": "The plugin that allows easily connect to Google Analytics and Google Tag Manager",
   "strapi": {
     "name": "gtm-module",
@@ -25,5 +25,24 @@
     "node": ">=14.19.1 <=18.x.x",
     "npm": ">=6.0.0"
   },
+  "main": "strapi-admin.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Onix-Systems/strapi-gtm-module.git"
+  },
+  "keywords": [
+    "Strapi",
+    "GTM",
+    "GA",
+    "Google Tag Manager",
+    "Google Analytics"
+  ],
+  "bugs": {
+    "url": "https://github.com/Onix-Systems/strapi-gtm-module/issues"
+  },
+  "homepage": "https://github.com/Onix-Systems/strapi-gtm-module#readme",
   "license": "MIT"
 }
