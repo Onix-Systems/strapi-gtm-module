@@ -1,6 +1,6 @@
 {
-  "name": "gtm-module",
-  "version": "0.0.0",
+  "name": "strapi-gtm-module",
+  "version": "0.0.1",
   "description": "This is the description of the plugin.",
   "strapi": {
     "name": "gtm-module",
@@ -12,17 +12,32 @@
     "react-ga4": "^2.1.0",
     "react-gtm-module": "^2.0.11"
   },
-  "author": {
-    "name": "Onix Systems"
-  },
+  "author": "Onix Systems",
   "maintainers": [
-    {
-      "name": "Onix Systems"
-    }
+    "Onix Systems"
   ],
   "engines": {
     "node": ">=14.19.1 <=18.x.x",
     "npm": ">=6.0.0"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "main": "strapi-admin.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Onix-Systems/strapi-gtm-module.git"
+  },
+  "keywords": [
+    "Strapi",
+    "GTM",
+    "GA",
+    "Google Tag Manager",
+    "Google Analytics"
+  ],
+  "bugs": {
+    "url": "https://github.com/Onix-Systems/strapi-gtm-module/issues"
+  },
+  "homepage": "https://github.com/Onix-Systems/strapi-gtm-module#readme"
 }
