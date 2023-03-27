@@ -1,6 +1,6 @@
 {
   "name": "strapi-gtm-module",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "The plugin that allows easily connect to Google Analytics and Google Tag Manager",
   "strapi": {
     "name": "gtm-module",
