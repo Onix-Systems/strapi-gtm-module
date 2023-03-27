@@ -10,9 +10,15 @@ function Initializer({ setPlugin }) {
   ref.current = setPlugin;
 
   const tgmInit = async () => {
-    const { gtmId, measurementId } = await request(`/${pluginId}/`, { method: 'GET' });
-    if (measurementId) ReactGA.initialize(measurementId);
-    if (gtmId) TagManager.initialize({ gtmId });
+    const {
+      gtmId, measurementId, measurementOptions, gtmOptions,
+    } = await request(`/${pluginId}/`, { method: 'GET' });
+    if (measurementId) {
+      ReactGA.initialize(measurementId, measurementOptions);
+    }
+    if (gtmId) {
+      TagManager.initialize({ gtmId, ...gtmOptions });
+    }
   };
 
   useEffect(() => {
