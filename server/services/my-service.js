@@ -2,6 +2,6 @@
 
 module.exports = ({ strapi }) => ({
   getGTMId() {
-    return strapi.config.get('plugin.gtm-module');
+    return strapi.config.get('plugin.strapi-gtm-module');
   },
 });

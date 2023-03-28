@@ -5,7 +5,7 @@
 
 **Add plugin dependency**
 ```bash
-npm i add strapi-plugin-measurement-protocol
+npm i strapi-gtm-module
 ```
 
 **Configure the plugin**
@@ -14,7 +14,7 @@ npm i add strapi-plugin-measurement-protocol
 // file: config/plugins.js
 module.exports = ({ env }) => ({
   // ...
-  "gtm-module": {
+  "strapi-gtm-module": {
     config: {
       gtmId: '',
       measurementId: '',
