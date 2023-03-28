@@ -13,10 +13,10 @@
     "react-gtm-module": "^2.0.11"
   },
   "peerDependencies": {
-    "@strapi/strapi": "^4.4.0"
+    "@strapi/strapi": "^4.8.2"
   },
   "author": {
-    "name": "Tymur Abel"
+    "name": "Onix Systems"
   },
   "maintainers": [
     {
