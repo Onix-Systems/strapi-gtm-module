@@ -1,9 +1,9 @@
 {
   "name": "strapi-gtm-module",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "The plugin that allows easily connect to Google Analytics and Google Tag Manager",
   "strapi": {
-    "name": "gtm-module",
+    "name": "strapi-gtm-module",
     "description": "The plugin that allows easily connect to Google Analytics and Google Tag Manager",
     "kind": "plugin",
     "displayName": "Gtm Module"
@@ -11,6 +11,9 @@
   "dependencies": {
     "react-ga4": "^2.1.0",
     "react-gtm-module": "^2.0.11"
+  },
+  "peerDependencies": {
+    "@strapi/strapi": "^4.4.0"
   },
   "author": {
     "name": "Tymur Abel"

@@ -3,7 +3,7 @@
 module.exports = ({ strapi }) => ({
   index(ctx) {
     ctx.body = strapi
-      .plugin('gtm-module')
+      .plugin('strapi-gtm-module')
       .service('myService')
       .getGTMId();
   },
